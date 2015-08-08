@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<title>The Australian Antarctic Data Centre</title>
+<meta name="author" content="(Ben Raymond)"/>
+
+<link rel="stylesheet" href="http://cdn.jsdelivr.net/reveal.js/2.5.0/css/reveal.css"/>
+<link rel="stylesheet" href="http://cdn.jsdelivr.net/reveal.js/2.5.0/css/theme/white.css" id="theme"/>
+
+<!-- If the query includes 'print-pdf', include the PDF print sheet -->
+<script>
+    if( window.location.search.match( /print-pdf/gi ) ) {
+        var link = document.createElement( 'link' );
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = 'http://cdn.jsdelivr.net/reveal.js/2.5.0/css/print/pdf.css';
+        document.getElementsByTagName( 'head' )[0].appendChild( link );
+    }
+</script>
+<style>.reveal section img { background: none; border: none; box-shadow: none;} div.slide-footer img {position: absolute; bottom: 0; left:20px; width: 40%;} .underline {text-decoration: underline;} .flt li { float:left; margin-left: 2em; font-size: 75%; }</style>
+</head>
+<body>
+<div class="reveal">
+<div class="slides">
+<section id="sec-title-slide" data-background="./aurora.jpg" data-background-size="100%" data-background-repeat="none">
+<h1>The Australian Antarctic Data Centre</h1><h2><a href="mailto:ben.raymond@aad.gov.au">ben.raymond@aad.gov.au</a></h2><img src="./aad-logo.png" style="width:40%; float:left; clear:none;">
+</section>
+
+
+
+<section>
+<section id="slide-nil" data-background="./aurora.jpg" data-background-size="100%" data-background-repeat="none">
+<h2 id="sec-1">AADC background</h2>
+<ul>
+<li>established in 1996 to provide long-term management of Australia's Antarctic data</li>
+<li>Australia's National Antarctic Data Centre</li>
+<li>motivations: Treaty obligations and desire for good science</li>
+
+</ul>
+
+<div class="slide-footer"><img src="aad-logo.png" /></div>
+</section>
+</section>
+<section>
+<section id="slide-nil" data-background="./aurora.jpg" data-background-size="100%" data-background-repeat="none">
+<h2 id="sec-2">AADC role</h2>
+<ul>
+<li>compliance</li>
+<li>participation in science</li>
+
+</ul>
+
+<div class="slide-footer"><img src="aad-logo.png" /></div>
+</section>
+</section>
+<section>
+<section id="slide-nil" data-background="./aurora.jpg" data-background-size="100%" data-background-repeat="none">
+<h2 id="sec-3">Project management</h2>
+
+
+<div class="slide-footer"><img src="aad-logo.png" /></div>
+</section>
+<section id="slide-nil" data-background="./aurora.jpg" data-background-size="100%" data-background-repeat="none">
+<h3 id="sec-3-1">Data policy</h3>
+<p>
+<a href="http://data.aad.gov.au/aadc/about/data_policy.cfm">http://data.aad.gov.au/aadc/about/data_policy.cfm</a>
+</p>
+
+<ul>
+<li>data are owned by the Commonwealth</li>
+<li>PI has exclusive use before data are made public</li>
+<li>data <i>products</i> are owned by their creator</li>
+<li>project products are also made public</li>
+
+</ul>
+
+
+<div class="slide-footer"><img src="aad-logo.png" /></div>
+</section>
+<section id="slide-nil" data-background="./aurora.jpg" data-background-size="100%" data-background-repeat="none">
+<h3 id="sec-3-2">Data management plans</h3>
+<p>
+<a href="http://data.aad.gov.au/aadc/projects/">http://data.aad.gov.au/aadc/projects/</a>
+</p>
+
+<ul>
+<li><p>
+first project milestone
+</p></li>
+<li><p>
+details of data and data products
+</p></li>
+<li><p>
+flags for:
+</p>
+<ul>
+<li>project links</li>
+<li>data management responsibilities</li>
+<li>data archiving and publishing</li>
+<li>DOIs</li>
+<li>GIS assistance</li>
+
+</ul></li>
+
+</ul>
+
+
+<div class="slide-footer"><img src="aad-logo.png" /></div>
+</section>
+</section>
+<section>
+<section id="slide-nil" data-background="./penguin-noloop.gif" data-background-size="100%" data-background-repeat="none">
+<h2 id="sec-4">Thanks</h2>
+
+<div class="slide-footer"><img src="aad-logo.png" /></div>
+</section>
+</section>
+</div>
+</div>
+
+<script src="http://cdn.jsdelivr.net/reveal.js/2.5.0/lib/js/head.min.js"></script>
+<script src="http://cdn.jsdelivr.net/reveal.js/2.5.0/js/reveal.js"></script>
+
+<script>
+// Full list of configuration options available here:
+// https://github.com/hakimel/reveal.js#configuration
+Reveal.initialize({
+
+controls: true,
+progress: true,
+history: false,
+center: false,
+slideNumber: true,
+rollingLinks: true,
+keyboard: true,
+overview: true,
+margin: 0.10,
+minScale: 0.50,
+maxScale: 2.50,
+
+theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+transition: Reveal.getQueryHash().transition || 'cube', // default/cube/page/concave/zoom/linear/fade/none
+transitionSpeed: 'default',
+multiplex: {
+    secret: '', // null if client
+    id: '', // id, obtained from socket.io server
+    url: '' // Location of socket.io server
+},
+
+// Optional libraries used to extend on reveal.js
+dependencies: [
+ { src: 'http://cdn.jsdelivr.net/reveal.js/2.5.0/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+ { src: 'http://cdn.jsdelivr.net/reveal.js/2.5.0/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+ { src: 'http://cdn.jsdelivr.net/reveal.js/2.5.0/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+ { src: 'http://cdn.jsdelivr.net/reveal.js/2.5.0/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+]
+});
+</script>
+</body>
+</html>

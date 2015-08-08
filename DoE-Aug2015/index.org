@@ -1,0 +1,121 @@
+#+TITLE:       The Australian Antarctic Data Centre
+#+AUTHOR:      Ben Raymond
+#+EMAIL:       ben.raymond@aad.gov.au
+#+DATE:	       Last-Modified: <2015-08-08 13:17:11>
+#
+# -- shared and general options
+#+OPTIONS: toc:nil num:nil
+#+STARTUP: showeverything
+#
+# -- LaTeX options
+#+OPTIONS: ^:{} <:t LaTeX:t author:t date:t email:nil texht:t
+#+LaTeX_CLASS: cv-org-article11
+#
+# -- reveal.js options
+#+OPTIONS: reveal_center:nil reveal_progress:t reveal_history:nil reveal_control:t
+#+OPTIONS: reveal_mathjax:nil reveal_rolling_links:t reveal_keyboard:t reveal_overview:t
+# +OPTIONS: reveal_width:1200 reveal_height:800
+#+REVEAL_TITLE_SLIDE_TEMPLATE: <h1>%t</h1><h2>%e</h2><img src="./aad-logo.png" style="width:40%%; float:left; clear:none;">
+# +REVEAL_TITLE_SLIDE_TEMPLATE: <h1>%t</h1><h2>%a</h2><h2>%e</h2><p>%d</p>
+#+REVEAL_MARGIN: 0.1
+#+REVEAL_MIN_SCALE: 0.5
+#+REVEAL_MAX_SCALE: 2.5
+#+REVEAL_TRANS: cube
+#+REVEAL_THEME: white
+#+REVEAL_TITLE_SLIDE_BACKGROUND: ./aurora.jpg
+#+REVEAL_TITLE_SLIDE_BACKGROUND_SIZE: 100%
+#+REVEAL_TITLE_SLIDE_BACKGROUND_REPEAT: none
+#+REVEAL_HLEVEL: 1
+# +REVEAL_HEAD_PREAMBLE: <meta name="description" content="describe content here">
+#+REVEAL_HEAD_PREAMBLE: <style>.reveal section img { background: none; border: none; box-shadow: none;} div.slide-footer img {position: absolute; bottom: 0; left:20px; width: 40%%;} .underline {text-decoration: underline;} .flt li { float:left; margin-left: 2em; font-size: 75%%; }</style>
+#+REVEAL_SLIDE_FOOTER: <img src="aad-logo.png" />
+#+REVEAL_PLUGINS: (highlight markdown notes)
+# +REVEAL_EXTRA_CSS: ./local.css
+#+REVEAL_ROOT: http://cdn.jsdelivr.net/reveal.js/2.5.0/
+# +REVEAL_ROOT: reveal.js
+#
+# -- HTML options
+#+OPTIONS: html-link-use-abs-url:nil html-postamble:nil html-preamble:nil
+#+OPTIONS: html-scripts:t html-style:t html5-fancy:nil tex:t
+#+CREATOR: Emacs <a href="http://orgmode.org">Org-mode 8.2.3c</a>
+#+HTML_CONTAINER: div
+#+HTML_DOCTYPE: xhtml-strict
+#+HTML_HEAD:
+#+HTML_HEAD_EXTRA:
+#+HTML_LINK_HOME:
+#+HTML_LINK_UP:
+#+HTML_MATHJAX:
+# +INFOJS_OPT: view:info toc:5
+
+
+
+*  AADC background
+:PROPERTIES:
+:reveal_background: ./aurora.jpg
+:reveal_background_size: 100%
+:reveal_background_repeat: none
+:END:
+
+- established in 1996 to provide long-term management of Australia's Antarctic data
+- Australia's National Antarctic Data Centre
+- motivations: Treaty obligations and desire for good science
+
+* AADC role
+:PROPERTIES:
+:reveal_background: ./aurora.jpg
+:reveal_background_size: 100%
+:reveal_background_repeat: none
+:END:
+
+- compliance
+- participation in science
+
+* Project management
+:PROPERTIES:
+:reveal_background: ./aurora.jpg
+:reveal_background_size: 100%
+:reveal_background_repeat: none
+:END:
+
+
+** Data policy
+:PROPERTIES:
+:reveal_background: ./aurora.jpg
+:reveal_background_size: 100%
+:reveal_background_repeat: none
+:END:
+
+[[http://data.aad.gov.au/aadc/about/data_policy.cfm]]
+
+- data are owned by the Commonwealth
+- PI has exclusive use before data are made public
+- data /products/ are owned by their creator
+- project products are also made public
+
+
+** Data management plans
+:PROPERTIES:
+:reveal_background: ./aurora.jpg
+:reveal_background_size: 100%
+:reveal_background_repeat: none
+:END:
+
+http://data.aad.gov.au/aadc/projects/
+
+- first project milestone
+- details of data and data products
+- flags for:
+  - project links
+  - data management responsibilities
+  - data archiving and publishing
+  - DOIs
+  - GIS assistance
+
+
+* Thanks
+:PROPERTIES:
+:reveal_background: ./penguin-noloop.gif
+:reveal_background_size: 100%
+:reveal_background_repeat: none
+:END:
+
