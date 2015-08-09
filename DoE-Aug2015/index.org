@@ -1,7 +1,7 @@
 #+TITLE:       The Australian Antarctic Data Centre
 #+AUTHOR:      Ben Raymond
 #+EMAIL:       ben.raymond@aad.gov.au
-#+DATE:	       Last-Modified: <2015-08-09 17:53:09>
+#+DATE:	       Last-Modified: <2015-08-10 08:21:36>
 #
 # -- shared and general options
 #+OPTIONS: toc:nil num:nil
@@ -168,6 +168,9 @@ http://data.aad.gov.au/aadc/projects/
 - publications
 - reporting of outputs
 
+#+attr_html: :width 25%
+[[./projects_diagram.png]]
+
 
 * Data management
 :PROPERTIES:
@@ -181,33 +184,6 @@ http://data.aad.gov.au/aadc/projects/
   - /preserved/
   - /published/ to appropriate networks
   - /curated/ and /value-added/
-
-
-* Data DOI
-:PROPERTIES:
-:reveal_background: ./aurora.jpg
-:reveal_background_size: 100%
-:reveal_background_repeat: none
-:END:
-
-- digital identifier on a dataset
-- citations, tracking of re-use
-- recognition of scientists work and of the value of the data
-- e.g. [[http://dx.doi.org/10.4225/15/54891299C13D8][10.4225/15/54891299C13D8]]
-
-* Data curation
-:PROPERTIES:
-:reveal_background: ./aurora.jpg
-:reveal_background_size: 100%
-:reveal_background_repeat: none
-:END:
-
-- predator diets http://data.aad.gov.au/aadc/trophic
-  - 28k records from 350 studies; published as data paper: [[http://dx.doi.org/10.1890/i0012-9658-92-5-1188][10.1890/i0012-9658-92-5-1188]]
-- animal tracking data from 1980's onwards
-  - published as research article [[http://dx.doi.org/10.1111/ecog.01021][10.1111/ecog.01021]]; used in East Antarctic MPA proposal
-# - Australian and Japanese marine science datasets
-#   - data paper in progress
 
 * Data publishing
 :PROPERTIES:
@@ -325,6 +301,35 @@ http://data.aad.gov.au/aadc/projects/
 - roll-our-own now morphed to CKAN
   - file contents: standardisation
   - R package (other clients)
+
+
+* Data DOI
+:PROPERTIES:
+:reveal_background: ./aurora.jpg
+:reveal_background_size: 100%
+:reveal_background_repeat: none
+:END:
+
+- digital identifier on a dataset
+- citations, tracking of re-use
+- recognition of scientists work and of the value of the data
+- e.g. [[http://dx.doi.org/10.4225/15/54891299C13D8][10.4225/15/54891299C13D8]]
+
+
+* Data curation
+:PROPERTIES:
+:reveal_background: ./aurora.jpg
+:reveal_background_size: 100%
+:reveal_background_repeat: none
+:END:
+
+- predator diets http://data.aad.gov.au/aadc/trophic
+  - 28k records from 350 studies; published as data paper: [[http://dx.doi.org/10.1890/i0012-9658-92-5-1188][10.1890/i0012-9658-92-5-1188]]
+- animal tracking data from 1980's onwards
+  - published as research article [[http://dx.doi.org/10.1111/ecog.01021][10.1111/ecog.01021]]; used in East Antarctic MPA proposal
+# - Australian and Japanese marine science datasets
+#   - data paper in progress
+
 
 * Data library
 :PROPERTIES:
