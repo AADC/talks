@@ -1,7 +1,7 @@
 #+TITLE:       The Australian Antarctic Data Centre
 #+AUTHOR:      Ben Raymond
 #+EMAIL:       ben.raymond@aad.gov.au
-#+DATE:	       Last-Modified: <2015-08-09 17:49:28>
+#+DATE:	       Last-Modified: <2015-08-09 17:53:09>
 #
 # -- shared and general options
 #+OPTIONS: toc:nil num:nil
@@ -95,13 +95,13 @@
 
 http://data.aad.gov.au/aadc/projects/
 
-- first project milestone
+- first milestone: what data, when?
 - flags for:
   - project links
   - data management responsibilities
   - data archiving and publishing
   - DOIs
-  - GIS assistance
+  - AADC assistance
 
 
 ** Data management plans
@@ -161,6 +161,8 @@ http://data.aad.gov.au/aadc/projects/
 :reveal_background_repeat: none
 :END:
 
+http://data.aad.gov.au/aadc/projects/
+
 - project liaison officer
 - annotations
 - publications
@@ -201,13 +203,11 @@ http://data.aad.gov.au/aadc/projects/
 :END:
 
 - predator diets http://data.aad.gov.au/aadc/trophic
-  - 28k records from 350 studies
-  - published as data paper: [[http://dx.doi.org/10.1890/i0012-9658-92-5-1188][10.1890/i0012-9658-92-5-1188]]
+  - 28k records from 350 studies; published as data paper: [[http://dx.doi.org/10.1890/i0012-9658-92-5-1188][10.1890/i0012-9658-92-5-1188]]
 - animal tracking data from 1980's onwards
-  - published as research article [[http://dx.doi.org/10.1111/ecog.01021][10.1111/ecog.01021]]
-  - used in East Antarctic MPA proposal
-- Australian and Japanese marine science datasets
-  - data paper in progress
+  - published as research article [[http://dx.doi.org/10.1111/ecog.01021][10.1111/ecog.01021]]; used in East Antarctic MPA proposal
+# - Australian and Japanese marine science datasets
+#   - data paper in progress
 
 * Data publishing
 :PROPERTIES:
