@@ -1,7 +1,7 @@
 #+TITLE:       The Australian Antarctic Data Centre
 #+AUTHOR:      Ben Raymond
 #+EMAIL:       ben.raymond@aad.gov.au
-#+DATE:	       Last-Modified: <2015-08-08 13:35:16>
+#+DATE:	       Last-Modified: <2015-08-09 11:39:05>
 #
 # -- shared and general options
 #+OPTIONS: toc:nil num:nil
@@ -27,12 +27,12 @@
 #+REVEAL_TITLE_SLIDE_BACKGROUND_REPEAT: none
 #+REVEAL_HLEVEL: 1
 # +REVEAL_HEAD_PREAMBLE: <meta name="description" content="describe content here">
-#+REVEAL_HEAD_PREAMBLE: <style>.reveal section img { background: none; border: none; box-shadow: none;} div.slide-footer img {position: absolute; bottom: 0; left:20px; width: 40%%;} .underline {text-decoration: underline;} .flt li { float:left; margin-left: 2em; font-size: 75%%; }</style>
+#+REVEAL_HEAD_PREAMBLE: <style>.reveal section img { background: none; border: none; box-shadow: none;} div.slide-footer img {position: absolute; bottom: 0; left:20px; width: 40%%;} .underline {text-decoration: underline;} .flt li { float:left; margin-left: 2em; font-size: 75%%; } </style>
 #+REVEAL_SLIDE_FOOTER: <img src="aad-logo.png" />
 #+REVEAL_PLUGINS: (highlight markdown notes)
 # +REVEAL_EXTRA_CSS: ./local.css
-#+REVEAL_ROOT: https://cdn.jsdelivr.net/reveal.js/3.0.0/
-# +REVEAL_ROOT: reveal.js
+# +REVEAL_ROOT: https://cdn.jsdelivr.net/reveal.js/3.0.0/
+#+REVEAL_ROOT: reveal.js
 #
 # -- HTML options
 #+OPTIONS: html-link-use-abs-url:nil html-postamble:nil html-preamble:nil
@@ -77,8 +77,9 @@
 :reveal_background_repeat: none
 :END:
 
+[[./projects_diagram.png]]
 
-** Data policy
+* Data policy
 :PROPERTIES:
 :reveal_background: ./aurora.jpg
 :reveal_background_size: 100%
@@ -93,7 +94,7 @@
 - project products are also made public
 
 
-** Data management plans
+* Data management plans
 :PROPERTIES:
 :reveal_background: ./aurora.jpg
 :reveal_background_size: 100%
@@ -103,13 +104,283 @@
 http://data.aad.gov.au/aadc/projects/
 
 - first project milestone
-- details of data and data products
 - flags for:
   - project links
   - data management responsibilities
   - data archiving and publishing
   - DOIs
   - GIS assistance
+
+
+** Data management plans
+:PROPERTIES:
+:reveal_background: ./aurora.jpg
+:reveal_background_size: 100%
+:reveal_background_repeat: none
+:END:
+
+[[./dmp1.png]]
+
+
+** Data management plans
+:PROPERTIES:
+:reveal_background: ./aurora.jpg
+:reveal_background_size: 100%
+:reveal_background_repeat: none
+:END:
+
+[[./dmp2.png]]
+
+
+** Data management plans
+:PROPERTIES:
+:reveal_background: ./aurora.jpg
+:reveal_background_size: 100%
+:reveal_background_repeat: none
+:END:
+
+[[./dmp3.png]]
+
+
+** Data management plans
+:PROPERTIES:
+:reveal_background: ./aurora.jpg
+:reveal_background_size: 100%
+:reveal_background_repeat: none
+:END:
+
+[[./dmp4.png]]
+
+** Data management plans
+:PROPERTIES:
+:reveal_background: ./aurora.jpg
+:reveal_background_size: 100%
+:reveal_background_repeat: none
+:END:
+
+[[./dmp5.png]]
+
+
+
+* MyScience
+:PROPERTIES:
+:reveal_background: ./aurora.jpg
+:reveal_background_size: 100%
+:reveal_background_repeat: none
+:END:
+
+- project liaison officer
+- annotations
+- publications
+- reporting of outputs
+
+
+* Data management
+:PROPERTIES:
+:reveal_background: ./aurora.jpg
+:reveal_background_size: 100%
+:reveal_background_repeat: none
+:END:
+
+- data are:
+  - /discoverable/ via metadata catalogue
+  - /preserved/
+  - /distributed/ to appropriate networks
+  - /curated/ and /value-added/
+
+
+* Data DOI
+:PROPERTIES:
+:reveal_background: ./aurora.jpg
+:reveal_background_size: 100%
+:reveal_background_repeat: none
+:END:
+
+- digital identifier on a dataset
+- citations, tracking of re-use
+- recognition of scientists work and of the value of the data
+
+* Data curation
+:PROPERTIES:
+:reveal_background: ./aurora.jpg
+:reveal_background_size: 100%
+:reveal_background_repeat: none
+:END:
+
+- predator diets http://data.aad.gov.au/aadc/trophic
+  - 28k records from 350 studies
+  - published as data paper: [[http://dx.doi.org/10.1890/i0012-9658-92-5-1188][10.1890/i0012-9658-92-5-1188]]
+- animal tracking data from 1980's onwards
+  - published as research article [[http://dx.doi.org/10.1111/ecog.01021][10.1111/ecog.01021]]
+  - used in East Antarctic MPA proposal
+- Australian and Japanese marine science datasets
+  - data paper in progress
+
+* Data publishing
+:PROPERTIES:
+:reveal_background: ./aurora.jpg
+:reveal_background_size: 100%
+:reveal_background_repeat: none
+:END:
+
+# +ATTR_REVEAL: :frag appear
+- GBIF, OBIS
+  - via IPT, marine and terrestrial
+  - Atlas of Living Australia is Aus GBIF and OBIS node
+  - Antarctic OBIS node is biodiversity.aq
+- AODN/IMOS
+  - via geoserver (in progress)
+- data.gov.au
+  - via CKAN
+
+
+* Other data portals
+:PROPERTIES:
+:reveal_background: ./aurora.jpg
+:reveal_background_size: 100%
+:reveal_background_repeat: none
+:END:
+- [[http://gcmd.nasa.gov/KeywordSearch/Freetext.do?KeywordPath=&Portal=soos-beta&MetadataType=0&Freetext=southern+ocean&action.x=0&action.y=0&action=search#0][SOOS]], ACE-CRC
+- via GCMD: filter existing AADC metadata records
+
+* Application development
+:PROPERTIES:
+:reveal_background: ./aurora.jpg
+:reveal_background_size: 100%
+:reveal_background_repeat: none
+:END:
+
+#+attr_html: :class flt
+- aerial photography
+- ARGOS tracking
+- heritage register
+- AWS and met data
+- biodiversity
+- contaminated sites
+- conversion calculators
+- CPR
+- DOIs
+- ecology metadata
+- EDS
+- environmental data
+- feature type catalogue
+- gazetteers
+- geographic information
+- data collection guidelines
+- remediation
+- imageAntarctica
+- map catalogue
+- marine science
+- metadata authoring tool
+- metadata catalogue
+- myscience
+- publications
+- requests
+- satellite imagery
+- sea ice measurements
+- study sites
+- SOE
+- sample tracking
+- survey control database
+- symbology
+- seal tags
+
+
+** Development
+:PROPERTIES:
+:reveal_background: ./aurora.jpg
+:reveal_background_size: 100%
+:reveal_background_repeat: none
+:END:
+
+- early development ahead of science/Antarctic community in general
+- bespoke applications
+
+
+** Approach
+:PROPERTIES:
+:reveal_background: ./aurora.jpg
+:reveal_background_size: 100%
+:reveal_background_repeat: none
+:END:
+
+- deprecation of custom tools, unnecessary functionality (e.g. animal tracking, some maps)
+- adopt modern developments (DOI, CKAN, IPT, github)
+- improve integration where appropriate (myscience, DMPs, metadata authoring tool)
+- standardisation: easier contribution to external data initiatives (e.g. data.gov.au, SOOS portal)
+
+** Open-source guidelines
+:PROPERTIES:
+:reveal_background: ./aurora.jpg
+:reveal_background_size: 100%
+:reveal_background_repeat: none
+:END:
+
+- recognition of staff contributions
+- guidelines on IP ownership
+- recognition of security and privacy requirements
+
+- cf government open source software policy
+
+** Data APIs
+:PROPERTIES:
+:reveal_background: ./aurora.jpg
+:reveal_background_size: 100%
+:reveal_background_repeat: none
+:END:
+- CKAN
+  - download files
+  - file contents: standardisation
+  - R package (other clients)
+
+* Data library
+:PROPERTIES:
+:reveal_background: ./aurora.jpg
+:reveal_background_size: 100%
+:reveal_background_repeat: none
+:END:
+- satellite-derived and similar environmental data
+- R packages
+  - maintain the library
+  - make use of the data
+- used across multiple projects
+
+* Compute resources
+:PROPERTIES:
+:reveal_background: ./aurora.jpg
+:reveal_background_size: 100%
+:reveal_background_repeat: none
+:END:
+- NecTAR/RDSI
+- local VM running RStudio
+
+* Hack days
+:PROPERTIES:
+:reveal_background: ./aurora.jpg
+:reveal_background_size: 100%
+:reveal_background_repeat: none
+:END:
+
+
+* GIS and spatial data
+:PROPERTIES:
+:reveal_background: ./aurora.jpg
+:reveal_background_size: 100%
+:reveal_background_repeat: none
+:END:
+
+- continued map publication
+- hydrographic surveying
+
+* Quantitative research
+:PROPERTIES:
+:reveal_background: ./aurora.jpg
+:reveal_background_size: 100%
+:reveal_background_repeat: none
+:END:
+** RAATD
+** other projects (AAS/IWC)
+** PhD (QAS)
 
 
 * Thanks
